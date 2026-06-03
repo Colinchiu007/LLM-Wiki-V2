@@ -1,0 +1,88 @@
+---
+name: Bug Report 🐛
+description: Report something that is broken or not working as expected
+title: "[Bug] "
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+
+        Thanks for taking the time to report a bug! Please fill out the sections below.
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: Which version of llm-wiki are you using?
+      options:
+        - v4.0.0 (v2)
+        - v3.3.0
+        - v3.0.x
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Claude Code
+        - Codex
+        - OpenClaw
+        - Hermes
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug in detail — what you expected vs what actually happened.
+      placeholder: "I said '...' and expected '...' but got '...'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps to reproduce this bug.
+      placeholder: |
+        1. Go to '...'
+        2. Run '...'
+        3. Say '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output / error messages
+      description: Paste any relevant log output, terminal output, or error messages.
+      placeholder: |
+        # paste logs here
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other context about the problem (OS, Python version, etc.)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: search-checked
+    attributes:
+      label: Search for existing issues
+      options:
+        - label: I searched for similar issues and found none
+          required: true
+---

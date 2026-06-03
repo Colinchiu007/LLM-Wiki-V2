@@ -1,0 +1,64 @@
+---
+name: Feature Request 💡
+description: Propose a new feature or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+
+        Have an idea for how to improve llm-wiki? Tell us about it!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: What problem does this feature solve? Why would it be useful?
+      placeholder: "I often find myself doing '...' and it would be great if llm-wiki could '...'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How do you envision this feature working?
+      placeholder: "Imagine being able to '...' by saying '...'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative approaches you've thought of?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Affects only one workflow (ingest/query/digest/etc.)
+          required: false
+        - label: Cross-cutting change affecting multiple workflows
+          required: false
+        - label: New library or script module
+          required: false
+        - label: Documentation or UX improvement
+          required: false
+
+  - type: checkboxes
+    id: help-wanted
+    attributes:
+      label: Willing to contribute?
+      options:
+        - label: I'd be happy to implement this feature
+          required: false
+        - label: I can help with testing
+          required: false
+---

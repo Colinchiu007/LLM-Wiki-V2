@@ -1,0 +1,47 @@
+---
+name: Question ❓
+description: Ask a question about how to use llm-wiki-v2
+title: "[Question] "
+labels: ["question"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Question
+
+        Before asking, check the [README.md](README.md) and [CHANGELOG.md](CHANGELOG.md) to see if your question is already answered.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Be specific about what you're trying to do and what you've already tried.
+      placeholder: |
+        I'm trying to '...' but I'm not sure how to '...'. I've already:
+        - Read the README section on '...'
+        - Tried saying '...' but got '...'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Claude Code
+        - Codex
+        - OpenClaw
+        - Hermes
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: OS, llm-wiki version, knowledge base setup, etc.
+    validations:
+      required: false
+---
