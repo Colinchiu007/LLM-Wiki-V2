@@ -1,7 +1,7 @@
 ---
 name: llm-wiki-v2
 version: 4.0.0
-author: sdyckjq-lab
+author: Colinchiu007
 license: MIT
 description: |
   Personal knowledge base build system v2 (LLM Wiki v2 methodology).

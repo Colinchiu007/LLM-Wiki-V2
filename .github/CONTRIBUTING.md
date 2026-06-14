@@ -35,7 +35,7 @@ llm-wiki-v2/
 ### Local setup
 
 ```bash
-git clone https://github.com/sdyckjq-lab/llm-wiki-skill.git
+git clone https://github.com/Colinchiu007/LLM-Wiki-V2.git
 cd llm-wiki-skill
 git checkout -b feature/my-feature  # or bugfix/issue-number
 ```

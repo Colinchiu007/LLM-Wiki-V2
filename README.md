@@ -4,7 +4,7 @@
 
 **English** | [中文](README_zh.md)
 
-[![version](https://img.shields.io/badge/v4.0.0-v2%E7%89%88-4A90D9?style=flat-square&labelColor=3a3026)](https://github.com/sdyckjq-lab/llm-wiki-skill/releases)
+[![version](https://img.shields.io/badge/v4.0.0-v2%E7%89%88-4A90D9?style=flat-square&labelColor=3a3026)](https://github.com/Colinchiu007/LLM-Wiki-V2/releases)
 [![license](https://img.shields.io/badge/MIT-license-5a6e5c?style=flat-square&labelColor=3a3026)](LICENSE)
 [![platforms](https://img.shields.io/badge/Claude%E2%9C%A8Codex%E2%9C%A8OpenClaw%E2%9C%A8Hermes-4--platforms-7a96a6?style=flat-square&labelColor=3a3026)]
 

@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Documentation
-    url: https://github.com/sdyckjq-lab/llm-wiki-skill#readme
+    url: https://github.com/Colinchiu007/LLM-Wiki-V2#readme
     about: Check the README for quick start and usage guides
   - name: 中文使用指南
-    url: https://github.com/sdyckjq-lab/llm-wiki-skill/blob/main/README_zh.md
+    url: https://github.com/Colinchiu007/LLM-Wiki-V2/blob/main/README_zh.md
     about: 中文使用说明和常见问题

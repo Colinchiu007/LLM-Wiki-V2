@@ -4,7 +4,7 @@
 
 把碎片化的信息变成持续积累、互相链接、自我维护的知识库。
 
-[![版本](https://img.shields.io/badge/v4.0.0-v2%E7%89%88-E8A87C?style=flat-square&labelColor=3a3026)](https://github.com/sdyckjq-lab/llm-wiki-skill/releases)
+[![版本](https://img.shields.io/badge/v4.0.0-v2%E7%89%88-E8A87C?style=flat-square&labelColor=3a3026)](https://github.com/Colinchiu007/LLM-Wiki-V2/releases)
 [![协议](https://img.shields.io/badge/MIT-协议-5a6e5c?style=flat-square&labelColor=3a3026)](LICENSE)
 [![平台](https://img.shields.io/badge/Claude%E2%9C%A8Codex%E2%9C%A8OpenClaw%E2%9C%A8Hermes-4%E4%B8%AA%E5%B9%B3%E5%8F%B0-7a96a6?style=flat-square&labelColor=3a3026)]
 
